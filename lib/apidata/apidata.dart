@@ -4,7 +4,7 @@ import 'package:http/http.dart' as http;
 class ApiService {
   static Future<List<Map<String, String>>> fetchUserData() async {
     const url =
-        "https://newsapi.org/v2/top-headlines?country=us&apiKey=dc271c4730064ec78f578bafd5d9bb94";
+        "https://newsapi.org/v2/top-headlines?country=us&apiKey=....";// key removed
     //print("on the way to get it");
     final response = await http.get(Uri.parse(url));
     //print("on the way to get it"); working
